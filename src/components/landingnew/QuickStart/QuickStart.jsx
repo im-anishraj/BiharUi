@@ -7,8 +7,8 @@ const TOOLS = ['shadcn', 'jsrepo'];
 const RUNNERS = ['npx', 'pnpm dlx', 'bunx --bun', 'yarn dlx'];
 
 const COMMANDS = {
-  shadcn: (runner) => `${runner} shadcn@latest add @react-bits/Aurora-TS-TW`,
-  jsrepo: (runner) => `${runner} jsrepo@latest add github/davidhaz/react-bits Aurora-TS-TW`,
+  shadcn: (runner) => `${runner} shadcn@latest add @bihar-ui/Aurora-TS-TW`,
+  jsrepo: (runner) => `${runner} jsrepo@latest add github/davidhaz/bihar-ui Aurora-TS-TW`,
 };
 
 const QuickStart = () => {

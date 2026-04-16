@@ -12,7 +12,7 @@ import { CATEGORIES, NEW, UPDATED } from '../../constants/Categories';
 import { componentMap } from '../../constants/Components';
 import { getSavedComponents } from '../../utils/favorites';
 
-import Logo from '../../assets/logos/react-bits-logo.svg';
+import Logo from '../../assets/logos/bihar-ui-logo.svg';
 import SponsorsCard from '../common/SponsorsCard';
 
 // ─── Constants ───────────────────────────────────────────────────────────────
@@ -183,7 +183,7 @@ const UsefulLinks = ({ onClose }) => (
     </Text>
     <Flex direction="column" gap={2}>
       {[
-        { to: 'https://github.com/DavidHDev/react-bits', label: 'GitHub', external: true },
+        { to: 'https://github.com/DavidHDev/bihar-ui', label: 'GitHub', external: true },
         { to: '/showcase', label: 'Showcase' },
         { to: 'https://x.com/davidhdev', label: 'Who made this?', external: true }
       ].map(({ to, label, external }) => (

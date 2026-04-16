@@ -4,7 +4,7 @@
     <picture>
       <source media="(prefers-color-scheme: light)" srcset="src/assets/logos/reactbits-gh-black.svg">
       <source media="(prefers-color-scheme: dark)" srcset="src/assets/logos/reactbits-gh-white.svg">
-      <img src="src/assets/logos/reactbits-gh-black.svg" alt="react-bits logo" width="600">
+      <img src="src/assets/logos/reactbits-gh-black.svg" alt="bihar-ui logo" width="600">
     </picture>
 	<br>
 	<br>
@@ -13,8 +13,8 @@
   <sub>Stand out with 110+ free, customizable animations for text, backgrounds, and UI.</sub>
 	<br>
 	<br>
-  <a href="https://github.com/davidhdev/react-bits/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/davidhdev/react-bits"></a>
-  <a href="https://github.com/davidhdev/react-bits/blob/main/LICENSE.md"><img alt="License" src="https://img.shields.io/badge/License-MIT+Commons_Clause-magenta"></a>
+  <a href="https://github.com/davidhdev/bihar-ui/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/davidhdev/bihar-ui"></a>
+  <a href="https://github.com/davidhdev/bihar-ui/blob/main/LICENSE.md"><img alt="License" src="https://img.shields.io/badge/License-MIT+Commons_Clause-magenta"></a>
   <br>
   <br>
   <a href="https://reactbits.dev/">📖 Documentation</a> · <a href="https://reactbits.dev/get-started/installation">⚡ Quick Start</a> · <a href="https://reactbits.dev/tools">🛠️ Tools</a>
@@ -64,7 +64,7 @@ BiharUI supports [shadcn](https://ui.shadcn.com/) and [jsrepo](https://jsrepo.de
 
 ```bash
 # Example: Add a component via shadcn
-npx shadcn@latest add @react-bits/BlurText-TS-TW
+npx shadcn@latest add @bihar-ui/BlurText-TS-TW
 ```
 
 Each component page includes copy-ready CLI commands. See the [installation guide](https://reactbits.dev/get-started/installation) for full details.
@@ -127,14 +127,14 @@ BiharUI is proudly supported by these amazing sponsors:
 
 ## 🤝 Contributing
 
-We'd love your help! Check the [open issues](https://github.com/DavidHDev/react-bits/issues) or submit ideas via the [feature request template](https://github.com/DavidHDev/react-bits/issues/new?template=2-feature-request.yml).
+We'd love your help! Check the [open issues](https://github.com/DavidHDev/bihar-ui/issues) or submit ideas via the [feature request template](https://github.com/DavidHDev/bihar-ui/issues/new?template=2-feature-request.yml).
 
-Please read the [contribution guide](https://github.com/DavidHDev/react-bits/blob/main/CONTRIBUTING.md) first — thanks for making BiharUI better!
+Please read the [contribution guide](https://github.com/DavidHDev/bihar-ui/blob/main/CONTRIBUTING.md) first — thanks for making BiharUI better!
 
 ## 🙌 Contributors
 
-<a href="https://github.com/davidhdev/react-bits/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=davidhdev/react-bits" />
+<a href="https://github.com/davidhdev/bihar-ui/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=davidhdev/bihar-ui" />
 </a>
 
 ## 👤 Maintainer
@@ -153,8 +153,8 @@ Please read the [contribution guide](https://github.com/DavidHDev/react-bits/blo
 
 ## 🗳️ Credit
 
-BiharUI occasionally draws inspiration from publicly available code examples. These are rewritten as full-fledged, customizable components for JS, TS, CSS, and Tailwind. If you recognize your work, [open an issue](https://github.com/DavidHDev/react-bits/issues) to request credit.
+BiharUI occasionally draws inspiration from publicly available code examples. These are rewritten as full-fledged, customizable components for JS, TS, CSS, and Tailwind. If you recognize your work, [open an issue](https://github.com/DavidHDev/bihar-ui/issues) to request credit.
 
 ## 📄 License
 
-[MIT + Commons Clause](https://github.com/davidhdev/react-bits/blob/main/LICENSE.md) — free for personal and commercial use.
+[MIT + Commons Clause](https://github.com/davidhdev/bihar-ui/blob/main/LICENSE.md) — free for personal and commercial use.

@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
 import { AiFillHeart } from 'react-icons/ai';
-import ReactBitsLogo from '../../../assets/logos/react-bits-logo.svg';
+import BiharUILogo from '../../../assets/logos/bihar-ui-logo.svg';
 import './Footer.css';
 
 const Footer = () => (
@@ -19,7 +19,7 @@ const Footer = () => (
     >
       <div className="ln-footer-top">
         <div className="ln-footer-brand">
-          <img src={ReactBitsLogo} alt="BiharUI" className="ln-footer-logo" />
+          <img src={BiharUILogo} alt="BiharUI" className="ln-footer-logo" />
           <p className="ln-footer-tagline">Animated UI components for React.</p>
         </div>
 
@@ -40,7 +40,7 @@ const Footer = () => (
           <div className="ln-footer-col">
             <span className="ln-footer-col-title">Community</span>
             <a
-              href="https://github.com/DavidHDev/react-bits"
+              href="https://github.com/DavidHDev/bihar-ui"
               target="_blank"
               rel="noopener noreferrer"
               className="ln-footer-link"

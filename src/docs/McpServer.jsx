@@ -101,11 +101,11 @@ const McpServer = () => {
 
       <p className="docs-paragraph">
         Registries are configured in your project&apos;s <span className="docs-highlight">components.json</span> file,
-        where you should first add the <span className="docs-highlight">@react-bits</span> registry:
+        where you should first add the <span className="docs-highlight">@bihar-ui</span> registry:
       </p>
       <CodeBlock showLineNumbers>{`{
   "registries": {
-    "@react-bits": "https://reactbits.dev/r/{name}.json"
+    "@bihar-ui": "https://reactbits.dev/r/{name}.json"
   }
 }`}</CodeBlock>
 

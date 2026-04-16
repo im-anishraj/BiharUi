@@ -5,4 +5,4 @@ export const PRO_ANNOUNCEMENT = {
   noBorder: true
 };
 
-export const GITHUB_URL = 'https://github.com/DavidHDev/react-bits';
+export const GITHUB_URL = 'https://github.com/DavidHDev/bihar-ui';
