@@ -5,14 +5,14 @@
 @property --cta-angle {
   syntax: '<angle>';
   initial-value: 0deg;
-  inherits: false;
+  inherits: true;
 }
 
 .ln-cta-section {
   position: relative;
   width: 100%;
   padding: 100px 0 160px;
-  background: #120F17;
+  background: #0B0B0F;
   z-index: 4;
   overflow: hidden;
 }
@@ -26,7 +26,7 @@
   height: 500px;
   background: radial-gradient(
     ellipse,
-    rgba(255, 255, 255, 0.025) 0%,
+    rgba(212, 166, 74, 0.05) 0%,
     transparent 70%
   );
   pointer-events: none;
@@ -56,12 +56,13 @@
   padding: 1px;
   background: conic-gradient(
     from var(--cta-angle),
-    transparent 0%,
-    #a955f751 10%,
-    transparent 20%,
-    transparent 50%,
-    #a955f794 60%,
-    transparent 70%
+    rgba(212, 166, 74, 0.18) 0%,
+    rgba(212, 166, 74, 0.18) 35%,
+    #D4A64A 45%,
+    #F2D27A 50%,
+    #B8860B 52%,
+    rgba(212, 166, 74, 0.18) 60%,
+    rgba(212, 166, 74, 0.18) 100%
   );
   -webkit-mask:
     linear-gradient(#fff 0 0) content-box,
@@ -71,9 +72,37 @@
     linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
   mask-composite: exclude;
-  animation: cta-border-spin 8s linear infinite;
+  animation: cta-border-spin 10s linear infinite;
   pointer-events: none;
   z-index: 0;
+}
+
+.ln-cta-card-border::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 30px;
+  padding: 2px;
+  background: conic-gradient(
+    from var(--cta-angle),
+    transparent 0%,
+    transparent 43%,
+    #D4A64A 46%,
+    #F2D27A 50%,
+    #B8860B 54%,
+    transparent 57%,
+    transparent 100%
+  );
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  filter: blur(8px);
+  opacity: 0.8;
 }
 
 @keyframes cta-border-spin {
@@ -142,7 +171,7 @@
 
 .ln-cta-btn--primary {
   background: #fff;
-  color: #120F17;
+  color: #0B0B0F;
   border: 1px solid #fff;
 }
 

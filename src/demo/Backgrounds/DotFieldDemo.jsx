@@ -31,7 +31,7 @@ const DEFAULT_PROPS = {
   waveAmplitude: 0,
   gradientFrom: '#A855F7',
   gradientTo: '#B497CF',
-  glowColor: '#120F17'
+  glowColor: '#0B0B0F'
 };
 
 const DotFieldDemo = () => {
@@ -110,7 +110,7 @@ const DotFieldDemo = () => {
       {
         name: 'glowColor',
         type: 'string',
-        default: "'#120F17'",
+        default: "'#0B0B0F'",
         description: 'Color of the radial glow effect that follows the cursor.'
       }
     ],

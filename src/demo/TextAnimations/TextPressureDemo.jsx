@@ -128,7 +128,7 @@ const TextPressureDemo = () => {
           <Box
             position="relative"
             className="demo-container"
-            bg="#120F17"
+            bg="#0B0B0F"
             minH={400}
             maxH={450}
             overflow="hidden"

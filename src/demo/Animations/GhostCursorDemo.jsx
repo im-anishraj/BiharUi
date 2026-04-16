@@ -166,7 +166,7 @@ const GhostCursorDemo = () => {
               fontSize="clamp(3rem, 8vw, 8rem)"
               zIndex={11}
               fontWeight={900}
-              color="#120F17"
+              color="#0B0B0F"
             >
               Boo!
             </Text>

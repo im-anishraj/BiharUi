@@ -188,7 +188,7 @@ const LaserFlowDemo = () => {
                   transform="translateX(-50%)"
                   width="86%"
                   height="60%"
-                  backgroundColor="#120F17"
+                  backgroundColor="#0B0B0F"
                   borderRadius="20px"
                   border={`2px solid ${color}`}
                   display="flex"

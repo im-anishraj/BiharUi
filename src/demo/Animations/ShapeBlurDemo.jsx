@@ -79,7 +79,7 @@ const ShapeBlurDemo = () => {
     <ComponentPropsProvider props={props} defaultProps={DEFAULT_PROPS} resetProps={resetProps} hasChanges={hasChanges}>
       <TabsLayout>
         <PreviewTab>
-          <Box position="relative" className="demo-container" background="#120F17" height={500} overflow="hidden" p={0}>
+          <Box position="relative" className="demo-container" background="#0B0B0F" height={500} overflow="hidden" p={0}>
             <ShapeBlur
               className="shapeblur-demo"
               variation={0}

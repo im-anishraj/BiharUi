@@ -32,9 +32,9 @@ const FlowingMenu: React.FC<FlowingMenuProps> = ({
   items = [],
   speed = 15,
   textColor = '#fff',
-  bgColor = '#120F17',
+  bgColor = '#0B0B0F',
   marqueeBgColor = '#fff',
-  marqueeTextColor = '#120F17',
+  marqueeTextColor = '#0B0B0F',
   borderColor = '#fff'
 }) => {
   return (

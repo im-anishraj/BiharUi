@@ -323,7 +323,7 @@ export default function ToolsPage() {
   const selectedTool = TOOLS.find(t => t.id === toolId)?.id || 'background-studio';
 
   return (
-    <Box h="100vh" bg="#120F17" overflow="hidden">
+    <Box h="100vh" bg="#0B0B0F" overflow="hidden">
       <Navbar showDocs />
 
       <Box

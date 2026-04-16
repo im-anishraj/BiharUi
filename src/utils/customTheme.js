@@ -17,7 +17,7 @@ const tabsRecipe = defineSlotRecipe({
   base: {
     trigger: {
       flex: '0 0 auto',
-      bg: '#120F17',
+      bg: '#0B0B0F',
       borderRadius: '10px',
       fontSize: '14px',
       border: '1px solid #2F293A',
@@ -41,7 +41,7 @@ export const toastStyles = {
     borderRadius: '0.75rem',
     border: '1px solid #2F293A',
     color: '#fff',
-    backgroundColor: '#120F17',
+    backgroundColor: '#0B0B0F',
     textAlign: 'center'
   }
 };
@@ -57,7 +57,7 @@ export const customTheme = createSystem(defaultConfig, {
       'html, body': {
         minHeight: '100vh',
         fontFamily: '"Geist", sans-serif',
-        backgroundColor: '#120F17'
+        backgroundColor: '#0B0B0F'
       }
     }
   },

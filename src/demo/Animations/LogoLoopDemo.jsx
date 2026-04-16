@@ -175,7 +175,7 @@ const LogoLoopDemo = () => {
               scaleOnHover={scaleOnHover}
               hoverSpeed={hoverSpeed}
               fadeOut={fadeOut}
-              fadeOutColor="#120F17"
+              fadeOutColor="#0B0B0F"
               ariaLabel="Our tech stack"
               renderItem={
                 useCustomRender

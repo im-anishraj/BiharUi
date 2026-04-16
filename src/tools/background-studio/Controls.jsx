@@ -520,7 +520,7 @@ export default function Controls({
   toolSelector,
   isMobile = false,
   disabled = false,
-  canvasBg = '#120F17',
+  canvasBg = '#0B0B0F',
   onCanvasBgChange
 }) {
   const [exportOpen, setExportOpen] = useState(false);

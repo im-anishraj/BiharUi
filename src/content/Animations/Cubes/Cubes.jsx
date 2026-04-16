@@ -11,7 +11,7 @@ const Cubes = ({
   duration = { enter: 0.3, leave: 0.6 },
   cellGap,
   borderStyle = '1px solid #fff',
-  faceColor = '#120F17',
+  faceColor = '#0B0B0F',
   shadow = false,
   autoAnimate = true,
   rippleOnClick = true,

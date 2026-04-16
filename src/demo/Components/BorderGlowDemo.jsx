@@ -18,7 +18,7 @@ import { borderGlow } from '../../constants/code/Components/borderGlowCode';
 const DEFAULT_PROPS = {
   edgeSensitivity: 30,
   glowColor: '40 80 80',
-  backgroundColor: '#120F17',
+  backgroundColor: '#0B0B0F',
   borderRadius: 28,
   glowRadius: 40,
   glowIntensity: 1.0,
@@ -43,7 +43,7 @@ const BorderGlowDemo = () => {
       { name: 'className', type: 'string', default: '""', description: 'Additional CSS classes for the outer wrapper.' },
       { name: 'edgeSensitivity', type: 'number', default: '30', description: 'How close the pointer must be to the edge for the glow to appear (0-100).' },
       { name: 'glowColor', type: 'string', default: '"40 80 80"', description: 'HSL values for the glow color, as "H S L" (e.g. "40 80 80").' },
-      { name: 'backgroundColor', type: 'string', default: '"#120F17"', description: 'Background color of the card.' },
+      { name: 'backgroundColor', type: 'string', default: '"#0B0B0F"', description: 'Background color of the card.' },
       { name: 'borderRadius', type: 'number', default: '28', description: 'Corner radius of the card in pixels.' },
       { name: 'glowRadius', type: 'number', default: '40', description: 'How far the outer glow extends beyond the card in pixels.' },
       { name: 'glowIntensity', type: 'number', default: '1.0', description: 'Multiplier for glow opacity (0.1-3.0).' },

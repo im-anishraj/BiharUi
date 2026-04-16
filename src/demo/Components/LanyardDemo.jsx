@@ -75,7 +75,7 @@ const LanyardDemo = () => {
             h={500}
             p={0}
             overflow="hidden"
-            bg="linear-gradient(180deg, #2F293A 0%, #120F17 100%)"
+            bg="linear-gradient(180deg, #2F293A 0%, #0B0B0F 100%)"
           >
             <RefreshButton onClick={forceRerender} />
             <Text position="absolute" fontSize="clamp(2rem, 6vw, 6rem)" fontWeight={900} color="#2F293A">
