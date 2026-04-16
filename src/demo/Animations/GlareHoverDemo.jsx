@@ -124,7 +124,7 @@ const GlareHoverDemo = () => {
         <PreviewTab>
           <Box position="relative" className="demo-container" h={400} overflow="hidden">
             <GlareHover
-              background="#120F17"
+              background="#0B0B0F"
               borderColor="#2F293A"
               borderRadius="20px"
               width="400px"

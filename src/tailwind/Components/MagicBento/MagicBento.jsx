@@ -8,37 +8,37 @@ const MOBILE_BREAKPOINT = 768;
 
 const cardData = [
   {
-    color: '#120F17',
+    color: '#0B0B0F',
     title: 'Analytics',
     description: 'Track user behavior',
     label: 'Insights'
   },
   {
-    color: '#120F17',
+    color: '#0B0B0F',
     title: 'Dashboard',
     description: 'Centralized data view',
     label: 'Overview'
   },
   {
-    color: '#120F17',
+    color: '#0B0B0F',
     title: 'Collaboration',
     description: 'Work together seamlessly',
     label: 'Teamwork'
   },
   {
-    color: '#120F17',
+    color: '#0B0B0F',
     title: 'Automation',
     description: 'Streamline workflows',
     label: 'Efficiency'
   },
   {
-    color: '#120F17',
+    color: '#0B0B0F',
     title: 'Integration',
     description: 'Connect favorite tools',
     label: 'Connectivity'
   },
   {
-    color: '#120F17',
+    color: '#0B0B0F',
     title: 'Security',
     description: 'Enterprise-grade protection',
     label: 'Protection'
@@ -501,7 +501,7 @@ const MagicBento = ({
             --glow-radius: 200px;
             --glow-color: ${glowColor};
             --border-color: #2F293A;
-            --background-dark: #120F17;
+            --background-dark: #0B0B0F;
             --white: hsl(0, 0%, 100%);
             --purple-primary: rgba(132, 0, 255, 1);
             --purple-glow: rgba(132, 0, 255, 0.2);

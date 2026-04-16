@@ -87,7 +87,7 @@ const MagicRingsDemo = () => {
     <ComponentPropsProvider props={props} defaultProps={DEFAULT_PROPS} resetProps={resetProps} hasChanges={hasChanges}>
       <TabsLayout>
         <PreviewTab>
-          <Box position="relative" className="demo-container" background="#120F17" h={500} p="0" overflow="hidden" display="flex" alignItems="center" justifyContent="center">
+          <Box position="relative" className="demo-container" background="#0B0B0F" h={500} p="0" overflow="hidden" display="flex" alignItems="center" justifyContent="center">
             {example === 'card' ? (
               <div className="mr-demo-card">
                 <div className="mr-demo-card-visual">

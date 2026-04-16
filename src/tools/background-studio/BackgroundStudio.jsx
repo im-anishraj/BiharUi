@@ -135,7 +135,7 @@ export default function BackgroundStudio({ toolSelector }) {
   const [renderKey, setRenderKey] = useState(0);
   const [isRecording, setIsRecording] = useState(false);
   const [recordingProgress, setRecordingProgress] = useState(0);
-  const [canvasBg, setCanvasBg] = useState('#120F17');
+  const [canvasBg, setCanvasBg] = useState('#0B0B0F');
   const debounceTimer = useRef(null);
   const previewRef = useRef(null);
   const mediaRecorderRef = useRef(null);

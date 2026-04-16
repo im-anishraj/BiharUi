@@ -1161,7 +1161,7 @@ export const BACKGROUNDS = [
       { name: 'waveAmplitude', type: 'number', default: 0, min: 0, max: 20, step: 1, label: 'Wave Amplitude' },
       { name: 'gradientFrom', type: 'color', default: 'rgba(168, 85, 247, 0.35)', label: 'Gradient From' },
       { name: 'gradientTo', type: 'color', default: 'rgba(180, 151, 207, 0.25)', label: 'Gradient To' },
-      { name: 'glowColor', type: 'color', default: '#120F17', label: 'Glow Color' }
+      { name: 'glowColor', type: 'color', default: '#0B0B0F', label: 'Glow Color' }
     ]
   }
 ];

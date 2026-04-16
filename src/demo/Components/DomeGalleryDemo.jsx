@@ -71,7 +71,7 @@ const DomeGalleryDemo = () => {
       {
         name: 'overlayBlurColor',
         type: 'string',
-        default: "'#120F17'",
+        default: "'#0B0B0F'",
         description: 'Color for the outer portion of the radial overlay blur'
       },
       {

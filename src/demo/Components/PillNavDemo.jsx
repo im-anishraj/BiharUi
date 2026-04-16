@@ -75,13 +75,13 @@ const PillNavDemo = () => {
       {
         name: 'pillColor',
         type: 'string',
-        default: '#120F17',
+        default: '#0B0B0F',
         description: 'Background color for navigation pills'
       },
       {
         name: 'hoveredPillTextColor',
         type: 'string',
-        default: '#120F17',
+        default: '#0B0B0F',
         description: 'Text color when hovering over pills'
       },
       {
@@ -118,18 +118,18 @@ const PillNavDemo = () => {
     dark: {
       logo: logoDark,
       baseColor: '#fff',
-      pillColor: '#120F17',
+      pillColor: '#0B0B0F',
       hoveredPillTextColor: '#000',
       pillTextColor: '#fff',
-      backgroundColor: '#120F17'
+      backgroundColor: '#0B0B0F'
     },
     color: {
       logo: logoDark,
       baseColor: '#B497CF',
-      pillColor: '#120F17',
-      hoveredPillTextColor: '#120F17',
+      pillColor: '#0B0B0F',
+      hoveredPillTextColor: '#0B0B0F',
       pillTextColor: '#fff',
-      backgroundColor: '#120F17'
+      backgroundColor: '#0B0B0F'
     }
   };
 

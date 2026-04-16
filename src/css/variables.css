@@ -1,25 +1,26 @@
 :root {
   /* Background colors */
-  --bg-body: #120F17;
-  --bg-card: #1B1722;
-  --bg-elevated: #1B1722;
-  --bg-hover: #373044;
+  --bg-body: #0B0B0F;
+  --bg-card: #111111;
+  --bg-elevated: #111111;
+  --bg-hover: #1A1A1A;
 
   /* Border colors */
-  --border-primary: #2F293A;
-  --border-secondary: #2F293A;
-  --border-subtle: #2F293A;
+  --border-primary: #8A611C;
+  --border-secondary: #332712;
+  --border-subtle: #241D0D;
 
   /* Brand colors */
-  --color-primary: #A855F7;
-  --color-accent: #B497CF;
-  --color-accent-muted: #B497CF;
+  --color-primary: #D4A64A;
+  --color-accent: #F2D27A;
+  --color-accent-muted: #F2D27A;
+  --color-cyan: #22D3EE;
 
   /* Text colors */
-  --text-primary: #fff;
-  --text-secondary: #f5f5f5;
-  --text-muted: #aaaaaa;
-  --text-dimmed: #a1a1aa;
+  --text-primary: #ffffff;
+  --text-secondary: #B8B8B8;
+  --text-muted: #B8B8B8;
+  --text-dimmed: #B8B8B8;
   --text-link: #ffffff;
 
   /* Radii */
@@ -30,8 +31,8 @@
   --radius-full: 50px;
 
   /* Shadows */
-  --shadow-dropdown: 0 8px 32px rgba(0, 0, 0, 0.4);
-  --shadow-primary: 0 2px 8px rgba(82, 39, 255, 0.4);
+  --shadow-dropdown: 0 8px 32px rgba(0, 0, 0, 0.6);
+  --shadow-primary: 0 2px 8px rgba(212, 166, 74, 0.4);
 
   /* Transitions */
   --transition-fast: 0.15s ease;
@@ -39,7 +40,7 @@
   --transition-slow: 0.3s ease;
 
   /* Shared gradient for section titles */
-  --gradient-title: linear-gradient(135deg, #fff 0%, #8660fa 20%, #a855f7 40%, #8400ff 60%, #a855f7 80%, #fff 100%);
+  --gradient-title: linear-gradient(135deg, #fff 0%, #F2D27A 20%, #D4A64A 40%, #8A611C 60%, #D4A64A 80%, #fff 100%);
 }
 
 /* Shared keyframes — used by section titles across multiple components */

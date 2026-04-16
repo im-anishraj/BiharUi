@@ -26,7 +26,7 @@ const DEFAULT_PROPS = {
   noiseScale: 1.0,
   pupilFollow: 1.0,
   flameSpeed: 1.0,
-  backgroundColor: '#120F17'
+  backgroundColor: '#0B0B0F'
 };
 
 const EvilEyeDemo = () => {

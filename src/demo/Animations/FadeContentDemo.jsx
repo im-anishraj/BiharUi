@@ -135,7 +135,7 @@ const FadeDemo = () => {
                 borderRadius="25px"
                 border="1px solid #2F293A"
                 w={200}
-                bg={'#120F17'}
+                bg={'#0B0B0F'}
               >
                 Fade
               </Flex>

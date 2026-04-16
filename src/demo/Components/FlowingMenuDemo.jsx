@@ -18,9 +18,9 @@ import { flowingMenu } from '../../constants/code/Components/flowingMenuCode';
 const DEFAULT_PROPS = {
   speed: 15,
   textColor: '#ffffff',
-  bgColor: '#120F17',
+  bgColor: '#0B0B0F',
   marqueeBgColor: '#ffffff',
-  marqueeTextColor: '#120F17',
+  marqueeTextColor: '#0B0B0F',
   borderColor: '#ffffff'
 };
 
@@ -51,7 +51,7 @@ const FlowingMenuDemo = () => {
       {
         name: 'bgColor',
         type: 'string',
-        default: '#120F17',
+        default: '#0B0B0F',
         description: 'Background color of the menu container.'
       },
       {
@@ -63,7 +63,7 @@ const FlowingMenuDemo = () => {
       {
         name: 'marqueeTextColor',
         type: 'string',
-        default: '#120F17',
+        default: '#0B0B0F',
         description: 'Text color inside the marquee.'
       },
       {

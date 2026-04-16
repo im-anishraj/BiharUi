@@ -118,7 +118,7 @@ const StickerPeelDemo = () => {
             className="demo-container"
             h={400}
             overflow="hidden"
-            bg="linear-gradient(to bottom, #120F17, #1B1722, #1B1722 , #120F17)"
+            bg="linear-gradient(to bottom, #0B0B0F, #1B1722, #1B1722 , #0B0B0F)"
           >
             <StickerPeel
               imageSrc={logo}

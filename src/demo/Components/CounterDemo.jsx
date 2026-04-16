@@ -147,7 +147,7 @@ const CounterDemo = () => {
               <Counter
                 value={parseFloat(value.toFixed(1))}
                 places={[100, 10, 1, '.', 0.1]}
-                gradientFrom="#120F17"
+                gradientFrom="#0B0B0F"
                 fontSize={fontSize}
                 padding={5}
                 gap={gap}
@@ -159,7 +159,7 @@ const CounterDemo = () => {
             ) : (
               <Counter
                 value={value}
-                gradientFrom="#120F17"
+                gradientFrom="#0B0B0F"
                 fontSize={fontSize}
                 padding={5}
                 gap={gap}

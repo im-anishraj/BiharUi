@@ -256,7 +256,7 @@
   font-family: 'Geist';
   font-weight: 900;
   text-transform: capitalize;
-  box-shadow: 0 5px 30px #120F1759;
+  box-shadow: 0 5px 30px #0B0B0F59;
   border-radius: var(--radius-md);
   color: var(--text-primary);
   background: rgba(0, 0, 0, 0.4);

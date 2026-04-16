@@ -139,11 +139,11 @@ const CardNavDemo = () => {
     },
     dark: {
       logo: logoDark,
-      baseColor: '#120F17',
+      baseColor: '#0B0B0F',
       menuColor: '#fff',
       buttonBgColor: '#5227FF',
       buttonTextColor: '#fff',
-      backgroundColor: '#120F17',
+      backgroundColor: '#0B0B0F',
       items
     },
     color: {
@@ -152,7 +152,7 @@ const CardNavDemo = () => {
       menuColor: '#fff',
       buttonBgColor: '#fff',
       buttonTextColor: '#5227FF',
-      backgroundColor: '#120F17',
+      backgroundColor: '#0B0B0F',
       items
     }
   };
