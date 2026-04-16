@@ -515,19 +515,6 @@ const Hero = () => {
       </svg>
 
       <div className="ln-hero-content">
-        <div className="ln-hero-left">
-          <Link to="/backgrounds/line-waves" className="ln-hero-tag">
-            <span className="ln-hero-tag-new" style={{ background: accentColor, color: accentFg }}>New Component</span>
-            Line Waves <FaArrowRight size={10} />
-          </Link>
-          <h1 className="ln-hero-headline"><span className="ln-hero-headline-line">React components for</span><br /><span className="ln-hero-headline-line">creative developers</span></h1>
-          <p className="ln-hero-description">
-            Highly customizable animated components & backgrounds that drop into your project and instantly make it stand out
-          </p>
-          <div className="ln-hero-buttons">
-            <Link to="/get-started/index" className="ln-hero-btn ln-hero-btn-primary" style={{ background: accentColor, borderColor: accentColor, color: accentFg }}>Browse Components</Link>
-          </div>
-        </div>
         <div className="ln-hero-right">
           <div className="ln-hero-code-window" onPointerEnter={preloadSounds}>
             <div className="ln-hero-code-titlebar">
@@ -569,6 +556,19 @@ const Hero = () => {
               />
             </div>
             <p className="ln-hero-code-hint">Drag or click values to edit</p>
+          </div>
+        </div>
+        <div className="ln-hero-left">
+          <Link to="/backgrounds/line-waves" className="ln-hero-tag">
+            <span className="ln-hero-tag-new" style={{ background: accentColor, color: accentFg }}>New Component</span>
+            Line Waves <FaArrowRight size={10} />
+          </Link>
+          <h1 className="ln-hero-headline"><span className="ln-hero-headline-line">React components for</span><br /><span className="ln-hero-headline-line">creative developers</span></h1>
+          <p className="ln-hero-description">
+            Highly customizable animated components & backgrounds that drop into your project and instantly make it stand out
+          </p>
+          <div className="ln-hero-buttons">
+            <Link to="/get-started/index" className="ln-hero-btn ln-hero-btn-primary" style={{ background: accentColor, borderColor: accentColor, color: accentFg }}>Browse Components</Link>
           </div>
         </div>
       </div>
